@@ -1,0 +1,163 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/*html {
+  background-color: white;
+  background-image: linear-gradient(180deg, white 15%, #ac92eb 70%);
+  height: 100vh;
+}*/
+
+html {
+    background-image: 
+    linear-gradient(to bottom, rgba(245, 246, 252, 0), rgba(30, 29, 30, 0.85)),
+    url('vineyard.webp');
+    height: 1000px;
+}
+
+body {
+  font-family; 'Poppins', sans-serif;
+  font-weight: 400;
+}
+
+.container{
+  font-family: "Times New Roman", Times, serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn {
+  text-decoration: none;
+  padding: 20px 50px;
+  font-size: 1.25rem;
+  position: relative;
+  margin: 32px;
+}
+
+.btn-3 {
+  overflow: hidden;
+  color: #fff;
+  border-radius: 30px;
+  box-shadow: 0 0 0 0 rgba(143, 64, 248, 0.5),
+    0 0 0 0 rgba(39, 200, 255, 0.5);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+.btn-3::after {
+  content: "";
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  top: -50px;
+  left: -100px;
+  background-color: #ff3cac;
+  background-image: linear-gradient(225deg,
+    #77bc1f 0%,
+    #7d85a7 80%,
+    #9782d8 100%);
+  z-index: -1;
+  transition: transform 0.5s ease;
+}
+
+.btn-3:hover {
+  transform: translate(0, -6px);
+  box-shadow: 10px -10px 25px 0 rgba(143, 64, 248, 0.5),
+    -10px 10px 25px 0 rgba(119, 188, 31, 0.5);
+}
+
+.btn-3:hover::after{
+  transform: rotate(150deg);
+}
+
+.box-container{
+  display:flex;
+  justify-content: center;
+}
+.box {
+  background-image: linear-gradient(to top, rgba(131, 74, 130, 0.2), rgba(131, 74, 130, 0.5));
+  box-shadow: rgba(16, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  border-radius: 25px;
+  width: 350px;
+  margin-top: 70px;
+  height:  540px;
+  /*position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); */
+}
+
+.firstline {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+  justify-content: space-around;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.beia-logo{
+  width:183px;
+}
+.disavit-logo{
+  width: 128px;
+}
+
+.file-upload-image{
+  margin-bottom: 25px;
+}
+.text {
+  font-size: 3.5vw;
+  color: #9782D8;
+  font-weight: bold;
+  text-shadow: 1px 1px black;
+  margin-top: 25px;
+}
+
+.inputfile {
+  width: 0.1px;
+  height: 0.1px;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+}
+
+.inputfile + label {
+  color: #77bc1f;
+  cursor: pointer;
+}
+
+.inputfile:focus + label,
+.inputfile + label:hover {
+    color: #5f9619;
+    transform: scale(1.1);
+}
+
+.file_uploader {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 5px;
+}
+label{
+  text-align: center;
+  margin: 0px;
+}
+
+h1 {
+  color: blue;
+  font-family: verdana;
+  font-size: 300%;
+}
+
+p {
+  margin: 30px;
+  color: red;
+  font-family: verdana;
+  font-size: 160%;
+}

@@ -1,0 +1,25 @@
+<svg id="Ebene_1" data-name="Ebene 1" xmlns="http://www.w3.org/2000/svg" width="258" height="258" viewBox="0 0 258 258">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: none;
+        stroke: #77bc1f;
+        stroke-width: 7.5px;
+      }
+
+      .cls-1 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-2 {
+        stroke-linejoin: round;
+      }
+    </style>
+  </defs>
+  <title>039-Upload</title>
+  <g>
+    <path class="cls-1" d="M156.83,163.46h17a28.42,28.42,0,0,0,8-55.69,36.84,36.84,0,0,0-67.67-16.55,26.89,26.89,0,0,0-34.82,18.51,27,27,0,0,0,3.39,53.73h17.71"/>
+    <polygon class="cls-2" points="118.15 147.36 118.15 182.26 139.85 182.26 139.85 147.36 155.06 147.36 129 108.01 102.94 147.36 118.15 147.36"/>
+    <circle class="cls-1" cx="129" cy="129" r="125"/>
+  </g>
+</svg>
